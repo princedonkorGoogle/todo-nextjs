@@ -1,6 +1,6 @@
 # Environment variables and secrets
-env:
-  - variable: MY_SECRET_KEY
-    secret: projects/YOUR_PROJECT_ID/secrets/YOUR_SECRET_NAME
-  - variable: ANOTHER_SECRET
-    secret: projects/YOUR_PROJECT_ID/secrets/ANOTHER_SECRET_NAME/versions/latest
+# env:
+#   - variable: MY_SECRET_KEY
+#     secret: projects/YOUR_PROJECT_ID/secrets/YOUR_SECRET_NAME
+#   - variable: ANOTHER_SECRET
+#     secret: projects/YOUR_PROJECT_ID/secrets/ANOTHER_SECRET_NAME/versions/latest
