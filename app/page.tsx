@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import Image from "next/image";
+import Link from 'next/link'; // Import Link
 
 interface Todo {
   id: number;
@@ -112,10 +113,18 @@ export default function Home() {
           </ul>
         </section>
 
+        <section className="text-center text-zinc-600 dark:text-zinc-300 mt-8">
+          <p>
+            <Link href="/env" className="text-blue-600 hover:underline dark:text-blue-400">
+              View Environment Variables
+            </Link>
+          </p>
+        </section>
+
         <footer className="text-center text-zinc-500 dark:text-zinc-400 mt-auto">
           <p>Simple Todo App built with Next.js</p>
         </footer>
       </main>
     </div>
   );
-}
+} 
