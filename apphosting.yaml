@@ -9,11 +9,8 @@ runConfig:
 
 # Environment variables and secrets
 env:
-  - variable: STORAGE_BUCKET
-    value: mybucket.firebasestorage.app
-    availability:
-      - BUILD
-      - RUNTIME
+  - variable: MY_SECRET_KEY
+    secret: projects/YOUR_PROJECT_ID/secrets/YOUR_SECRET_NAME
+  - variable: ANOTHER_SECRET
+    secret: projects/YOUR_PROJECT_ID/secrets/ANOTHER_SECRET_NAME/versions/latest
 
-  - variable: API_KEY
-    secret: myApiKeySecret
