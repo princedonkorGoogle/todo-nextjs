@@ -62,7 +62,6 @@ export default function EnvPage() {
             </p>
           )}
         </section>
-
         <footer className="text-center text-zinc-500 dark:text-zinc-400 mt-auto">
           <p>Environment variable inspector</p>
         </footer>
