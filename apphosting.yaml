@@ -9,7 +9,7 @@ env:
   - variable: DB_HOST
     value: localhost
   - variable: DB_PORT
-    value: "12345"
+    value: "54321"
   - variable: FEATURE_FLAG_NEW_UI
     value: "true"
   - variable: MAX_RETRY_ATTEMPTS
